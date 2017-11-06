@@ -1,4 +1,4 @@
-FROM ruby:2.3.4
+FROM ruby:2.4-alpine
 
 LABEL io.k8s.description="A Platform for Building Websites from Markdown" \
     io.k8s.display-name="Jekyll Builder" \
